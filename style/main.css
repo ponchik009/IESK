@@ -333,4 +333,153 @@ header {
   .menu__list {
     display: none;
   }
+
+  
+}
+
+.news__img {
+  filter: brightness(40%);
+  width:100%;
+}
+
+.this__page{
+  color: gray;
+  font-size: 16;
+  margin-top: 33px;
+  margin-bottom: 33px;
+  margin-left: 13%; /*пусть пока так*/
+}
+
+div#tekst_sverhu_kartinki {
+  position:relative;
+  }.tekst_sverhu_kartinki {
+  position: absolute;
+  bottom: 5%;
+  left: 14%;
+  color: white;
+  width: 60%;
+  font-size: 48px;
+  font-weight: bold;
+  }
+
+  p{
+    box-sizing: border-box; 
+    padding: 20px;
+  }
+
+  .background_content{
+    background-color: #CFCFCF; 
+    width: 100%;
+  }
+
+  .background_text{
+    background-color: white; 
+    width: 60%; 
+    margin:0 auto; 
+  }
+
+  .main_text{
+    font-size: 20px;
+  }
+
+  .background_quote{
+    background-color: #273B4A; 
+    width: 100%; 
+    margin:0 auto; 
+    box-sizing: border-box; 
+    padding: 30px;
+  }
+
+
+  
+#slider {
+  position: relative;
+  text-align: center;
+  top: 10px;
+  margin: 0 auto;
+}
+
+#slider article{
+  width: 20%;
+  float: left;
+}
+
+#slider .image{
+  width: 500%;
+  line-height: 0;
+}
+
+#overflow{
+  width: 100%;
+  overflow: hidden;
+}
+
+article img {
+  width: 70%;
+}
+
+#desktop:checked ~ #slider{
+  max-width: 960px;
+}
+
+label, a{
+  cursor: pointer;
+}
+
+.all input{
+  display: none;
+}
+
+#switch1:checked ~ #slides .image{
+  margin-left: 0;
+}
+#switch2:checked ~ #slides .image{
+  margin-left: -100%;
+}
+#switch3:checked ~ #slides .image{
+  margin-left: -200%;
+}
+#switch4:checked ~ #slides .image{
+  margin-left: -300%;
+}
+#switch5:checked ~ #slides .image{
+  margin-left: -400%;
+}
+
+#controls{
+  margin: -25% 0 0 0;
+  width: 100%;
+  height: 50px;
+}
+
+#active label{
+  border-radius: 10px;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: #bbb;
+  margin-bottom: 20px;
+}
+
+#active{
+  margin: 10px 0 0;
+  text-align: center;
+}
+
+#active label:hover{
+  background: #76c8ff;
+  border-color: #777 !important;
+}
+
+#switch1:checked ~ #active label:nth-child(1),
+#switch2:checked ~ #active label:nth-child(2),
+#switch3:checked ~ #active label:nth-child(3),
+#switch4:checked ~ #active label:nth-child(4),
+#switch5:checked ~ #active label:nth-child(5){
+  background: #18a3dd;
+  border-color: #18a3dd !important;
+}
+
+#slides .image{
+  transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
 }
