@@ -382,6 +382,30 @@ div#tekst_sverhu_kartinki {
     font-size: 20px;
   }
 
+  .vector{
+    height: 100%;  
+    margin-left: 30px; 
+    margin-right: 30px;
+  }
+
+  .photo_quote{
+    width: 170px; 
+    height: 242px;
+  }
+
+  .quote{
+    vertical-align: middle;
+  }
+
+  .gallery{
+    font-size: 32px; 
+    font-weight: bold;
+  }
+
+  table{
+    width: 100%;
+  }
+
   .background_quote{
     background-color: #273B4A; 
     width: 100%; 
